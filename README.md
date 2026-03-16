@@ -1,0 +1,1 @@
+# HACS-encryption_plugin
