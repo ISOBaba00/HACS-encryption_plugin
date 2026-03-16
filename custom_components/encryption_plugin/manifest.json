@@ -1,0 +1,8 @@
+{
+  "domain": "encryption_plugin",
+  "name": "Şifreli Kasa Sistemi",
+  "codeowners": ["@ISOBaba00"],
+  "version": "1.0.0",
+  "documentation": "https://github.com/ISOBaba00/HACS-encryption_plugin",
+  "iot_class": "local_polling"
+}
