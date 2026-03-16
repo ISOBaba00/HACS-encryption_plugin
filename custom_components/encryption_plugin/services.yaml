@@ -1,0 +1,7 @@
+verify_code:
+  description: "Girilen şifreyi kontrol eder ve doğruysa eylem tetikler."
+  fields:
+    entered_code:
+      description: "Kullanıcının girdiği şifre."
+      example: "1234"
+      required: true
