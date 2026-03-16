@@ -2,7 +2,7 @@
   "domain": "encryption_plugin",
   "name": "Şifreli Kasa Sistemi",
   "version": "1.0.0",
-  "integration_type": "helper",
-  "render_icon": true,
-  "icon": "mdi:safe-shield"
+  "config_flow": true, 
+  "codeowners": ["@ISOBaba00"],
+  "iot_class": "local_polling"
 }
