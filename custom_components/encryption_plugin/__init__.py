@@ -5,6 +5,9 @@ from .const import DOMAIN, CONF_CODE, CONF_LOCK_TIME, CONF_BRUTE_FORCE
 
 _LOGGER = logging.getLogger(__name__)
 
+async def async_setup(hass: HomeAssistant, config: dict):
+    """YAML kurulumu için (gerekli değil ama HA bazen arıyor)."""
+    return True
 async def async_setup_entry(hass: HomeAssistant, entry):
     conf_sifre = str(entry.data.get(CONF_CODE))
     lock_time = entry.data.get(CONF_LOCK_TIME)
